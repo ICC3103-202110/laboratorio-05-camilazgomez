@@ -7,7 +7,6 @@ async function app(state,view,update) {
     while (true){
     const {model, currentView} = state;
     const {title, table} = currentView;
-    //const currentView=views.summary(Math.round(bill*100)/100,Math.round(percent*100)/100,Math.round(tip*100)/100,Math.round(total*100)/100);
     console.clear();
     console.log(title);
     printTable(table);
